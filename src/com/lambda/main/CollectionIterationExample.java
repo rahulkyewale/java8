@@ -20,12 +20,14 @@ public class CollectionIterationExample {
 				);
 		
 		System.out.println("For loop");
+		System.out.println("\nFor in loop New");
+		System.out.println("\nFor in loop New Master");
+		
 		for (int i = 0; i < persons.size(); i++) {
 			System.out.println(persons.get(i));
 		}
 		
 		System.out.println("\nFor in loop");
-		System.out.println("\nFor in loop New Master");
 		for (Person person : persons) {
 			System.out.println(person);
 		}
