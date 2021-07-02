@@ -10,6 +10,7 @@ public class TypeInferenceExample {
 	
 	public static void printLambda(StringLengthLambda l) {
 		System.out.print(l.getLength("Hello Lambda"));
+		System.out.print(l.getLength("Hello Lambda New"));
 	}
 	
 	
