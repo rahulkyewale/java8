@@ -15,6 +15,7 @@ public class TypeInferenceExample {
 	
 	interface StringLengthLambda {
 		int getLength(String s);
+		System.out.print(l.getLength("Hello Lambda New Master"));
 	}
 	
 	

@@ -25,6 +25,7 @@ public class CollectionIterationExample {
 		}
 		
 		System.out.println("\nFor in loop");
+		System.out.println("\nFor in loop New Master");
 		for (Person person : persons) {
 			System.out.println(person);
 		}
