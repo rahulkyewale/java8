@@ -20,7 +20,7 @@ public class CollectionIterationExample {
 				);
 		
 		System.out.println("For loop");
-		System.out.println("For loop New");
+		System.out.println("For loop 123 New 123");
 		for (int i = 0; i < persons.size(); i++) {
 			System.out.println(persons.get(i));
 		}
