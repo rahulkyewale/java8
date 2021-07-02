@@ -11,7 +11,7 @@ public class TypeInferenceExample {
 	public static void printLambda(StringLengthLambda l) {
 		System.out.print(l.getLength("Hello Lambda"));
 		System.out.print(l.getLength("Hello Lambda New"));
-		System.out.print(l.getLength("Hello Lambda New Master"));
+		System.out.print(l.getLength("Hello Lambda 123 New 123"));
 	}
 	
 	
